@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/frog_icon.png" alt="Froh" width="auto" height="100">
+    <img src="./assets/img/frog_icon.png" alt="Frog" width="auto" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Loren Jade Lingon's Portfolio</h3>
@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Lingon-Midterms)
 
 ---
 
@@ -117,7 +117,7 @@ WD-ProjectName
 | Embed a Video in HTML | A guide to how to embed a video in HTML | https://www.html-easy.com/learn/how-to-embed-a-video-in-html/ |
 | CSS Grid Layout | Using a grid-based layout system | https://www.w3schools.com/css/css_grid.asp |
 | Zoom in on Hover | A tutorial on how to make a zoom in on hover transition on images | https://w3bits.com/css-image-hover-zoom/ |
-| Social Media Icons | How to style social media buttons using CSS. | https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
+| Social Media Icons | How to style social media buttons using CSS | https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
 | Scroll to Top Button | Create a scroll to top button | https://www.w3schools.com/howto/howto_js_scroll_to_top.asp |
 | Anchoring Links | Anchoring links to a specific section of a page | https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html |
 
