@@ -1,0 +1,446 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, html {
+    background-color: #ffefdb;
+    height: 100%;
+    font-family: 'Franklin Gothic';
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #ffecd2;
+    margin: 0.5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:#3f2f24;
+    margin-inline: 2rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.logo {
+    height: 5rem;
+    width: auto;
+}
+
+/* Hover Animations */
+.navbar a:hover {
+    color: #ffffff;
+    background-color: #9a6845;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transform: translateY(-5px);
+}
+
+/* Header Section Styles */
+.header-section {
+    position: relative;
+    width: 100%;
+    height: 50rem;
+    background: url(/assets/img/Banner.png) no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.header-content {
+    position: relative;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-family: Georgia;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-family: 'Franklin Gothic';
+    font-size: 1rem;
+}
+
+/* About Me Section: Text */
+.hero {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem 5rem;
+}
+
+.hero-content h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+}
+
+.hero-image img {
+    max-width: 500px;
+    height: auto;
+}
+
+.hero-image {
+    max-width: 50%;
+}
+
+/* About Me Section: Button */
+.hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    background-color: #efcea7;
+    border: 0.1rem solid #a17d67;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-family: Georgia;
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px auto;
+}
+
+.hero-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.hero-button span::after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.hero-button:hover span {
+    padding-right: 25px;
+}
+
+.hero-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* Showreel Section */
+.showreel {
+    padding: 3rem;
+    background-color: #d6c2aa;
+}
+
+.showreel h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia;
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    max-width: 100%;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    max-width: 960px;
+}
+
+/* Art Gallery Section */
+.art-gallery h1 {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    color: #3c3522;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0.5rem;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.gallery > div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    grid-row-end: span 30;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* About Me Section */
+/* Profile */
+.profile h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia;
+    font-size: 5rem;
+    color: #ffffff;
+    background-color: #a9967f;
+    padding: 3rem;
+}
+
+.about-image {
+    width: 35%;
+    float: left;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.about-image img {
+    max-width: 20rem;
+    height: auto;
+    border-radius: 2rem;
+}
+
+.about-text {
+    width: 65%;
+    float: right;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 3rem 3rem;
+}
+
+.about-text h2 {
+    font-family: Georgia;
+    color: #3c3522;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about-text p {
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: justify;
+    max-width: 90%;
+}
+
+/* Education */
+.education {
+    clear: both;
+    padding: 3rem;
+}
+
+.solid {
+    border-bottom: 0.1rem solid #453d34;
+}
+
+.education h1 {
+    font-family: Georgia;
+    font-size: 4rem;
+    color: #3c3522;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+.grid-container h2 {
+    font-family: Georgia;
+    font-size: 2.5rem;
+    background-color:#a9967f;
+    color: #ffffff;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+
+.grid-container h2:hover {
+    background-color:#7c4d12;
+    color: #30281f;
+    transition: all 0.3s ease;
+}
+
+.grid-container h3 {
+    color: #cf8a36;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.grid-container p {
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+}
+
+/* Awards and Skills */
+.awards-and-section {
+    clear: both;
+    padding: 3rem;
+}
+
+.solid2 {
+    border-bottom: 0.1rem solid #453d34;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.grid-as {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    padding: 3rem;
+    text-align: center;  
+}
+
+.grid-as h1 {
+    font-family: Georgia;
+    font-size: 3rem;
+    color: #3c3522;
+    text-align: center;
+    padding-top: 3rem;
+
+}
+
+.grid-as ul {
+    list-style-type: none;
+}
+
+.grid-as li {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+/* Footer / Social Medias */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    background-color: #9a6845;
+    padding: 3rem;
+}
+
+.footer h1 {
+    font-family: Georgia;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.social-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.social-menu a {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    color: #9a6845;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    margin-inline: 2rem;
+    transition: all 0.3s ease;
+}
+
+.social-menu a.facebook-icon:hover {
+    color: #3c3522;
+    background-color: #2146ff;
+    transform: translateY(-5px);
+}
+
+.social-menu a.instagram-icon:hover {
+    color: #3c3522;
+    background-color: #ff2df8;
+    transform: translateY(-5px);
+}
+
+.social-menu a.google-icon:hover {
+    color: #3c3522;
+    background-color: #21ff76;
+    transform: translateY(-5px);
+}
+
+.footer p {
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+/* Back to the Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: #cf8a36;
+    color: #ffffff;
+    text-align: center;
+    line-height: 3rem;
+    border-radius: 3rem;
+    font-size: 24px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #7d4809;
+}

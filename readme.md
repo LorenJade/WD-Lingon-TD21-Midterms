@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/frog_icon.png" alt="Froh" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Loren Jade Lingon's Portfolio</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Hi! I'm Loren Jade Lingon, a BMA TD21 student of FEU Tech, and welcome to my portfolio / website. Explore my creative journey as a growing artist and a multimedia students and check out my resume as well. Let your creativity bloom within you!~
 </div>
 
 <br />
@@ -57,26 +57,22 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+The repository is a portfolio/personal website showcasing Loren's works, from artwork to a showreel exhibiting her abilities in animation and video editing. A comprehensive resume with Loren's education history, accomplishments, abilities, and social media accounts is also included, along with interactive hover buttons and animations. The goal of this one-page portfolio, which was created using HTML and CSS, is to highlight the works in question and transform your resume into an eye-catching and functional website.
 
 ### Key Components
+
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Single Page Website
+- Hover Buttons
+- Interactable and Animated Buttons
+- Zoom In Animations on Images
+- Video Embed
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -115,6 +111,13 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
-| Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| HTML Tutorial | A list of tutorials of the basics of HTML | https://www.w3schools.com/html/html_basic.asp |
+| Side by Side Divs | Ways to display two divs side by side | https://coder-coder.com/display-divs-side-by-side/ |
+| Hover Button | How to animate buttons using CSS | https://www.w3schools.com/howto/howto_css_animate_buttons.asp |
+| Embed a Video in HTML | A guide to how to embed a video in HTML | https://www.html-easy.com/learn/how-to-embed-a-video-in-html/ |
+| CSS Grid Layout | Using a grid-based layout system | https://www.w3schools.com/css/css_grid.asp |
+| Zoom in on Hover | A tutorial on how to make a zoom in on hover transition on images | https://w3bits.com/css-image-hover-zoom/ |
+| Social Media Icons | How to style social media buttons using CSS. | https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
+| Scroll to Top Button | Create a scroll to top button | https://www.w3schools.com/howto/howto_js_scroll_to_top.asp |
+| Anchoring Links | Anchoring links to a specific section of a page | https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html |
+
