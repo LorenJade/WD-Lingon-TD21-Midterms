@@ -49,34 +49,15 @@ body, html {
 }
 
 /* Header Section Styles */
-.header-section {
-    position: relative;
+.header-section img {
     width: 100%;
-    height: 50rem;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    color: white;
-    text-align: center;
-    padding: 0 2rem;
-}
-
-.header-content {
+    height: 95vh;
     position: relative;
-    text-align: center;
-}
-
-.header-content h1 {
-    font-family: Georgia;
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-.header-content p {
-    font-family: 'Franklin Gothic';
-    font-size: 1rem;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 25% 25%;
+    left: 0;
+    z-index: 1;
 }
 
 /* About Me Section: Text */
@@ -86,12 +67,13 @@ body, html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 5rem 5rem;
+    padding: 3rem 5rem 5rem;
 }
 
 .hero-content h2 {
     font-size: 2rem;
     font-weight: normal;
+    line-height: 2.7rem;
     margin-top: 10px;
     margin-bottom: 2rem;
 }
