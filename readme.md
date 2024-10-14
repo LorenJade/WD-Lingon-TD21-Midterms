@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Hi! I'm Loren Jade Lingon, a BMA TD21 student of FEU Tech, and welcome to my portfolio / website. Explore my creative journey as a growing artist and a multimedia students and check out my resume as well. Let your creativity bloom within you!~
+  Hi! I'm Loren Jade Lingon, a BMA TD21 student of FEU Tech, and welcome to my portfolio / website. Explore my resume and my creative experience as a growing artist and multimedia student. Let your creativity bloom within you!~
 </div>
 
 <br />
