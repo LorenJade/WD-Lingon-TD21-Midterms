@@ -57,7 +57,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-The repository is a portfolio/personal website showcasing Loren's works, from artwork to a showreel exhibiting her abilities in animation and video editing. A comprehensive resume with Loren's education history, accomplishments, abilities, and social media accounts is also included, along with interactive hover buttons and animations. The goal of this one-page portfolio, which was created using HTML and CSS, is to highlight the works in question and transform your resume into an eye-catching and functional website.
+The repository is a portfolio/personal website showcasing Loren's works, from artwork to a showreel exhibiting her abilities in animation and video editing. A comprehensive resume with Loren's education history, accomplishments, abilities, and social media accounts is also included, along with interactive hover buttons and animations. The goal of this one-page website, which was created using HTML and CSS, is to highlight the works in question and transform her resume into an eye-catching and functional website.
 
 ### Key Components
 
@@ -111,13 +111,13 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
-| HTML Tutorial | A list of tutorials of the basics of HTML | https://www.w3schools.com/html/html_basic.asp |
-| Side by Side Divs | Ways to display two divs side by side | https://coder-coder.com/display-divs-side-by-side/ |
-| Hover Button | How to animate buttons using CSS | https://www.w3schools.com/howto/howto_css_animate_buttons.asp |
-| Embed a Video in HTML | A guide to how to embed a video in HTML | https://www.html-easy.com/learn/how-to-embed-a-video-in-html/ |
-| CSS Grid Layout | Using a grid-based layout system | https://www.w3schools.com/css/css_grid.asp |
-| Zoom in on Hover | A tutorial on how to make a zoom in on hover transition on images | https://w3bits.com/css-image-hover-zoom/ |
-| Social Media Icons | How to style social media buttons using CSS | https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
-| Scroll to Top Button | Create a scroll to top button | https://www.w3schools.com/howto/howto_js_scroll_to_top.asp |
-| Anchoring Links | Anchoring links to a specific section of a page | https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html |
+| HTML Tutorial | A list of tutorials of the basics of HTML | https://www.w3schools.com/html/html_basic.asp |<br>
+| Side by Side Divs | Ways to display two divs side by side | https://coder-coder.com/display-divs-side-by-side/ |<br>
+| Hover Button | How to animate buttons using CSS | https://www.w3schools.com/howto/howto_css_animate_buttons.asp |<br>
+| Embed a Video in HTML | A guide to how to embed a video in HTML | https://www.html-easy.com/learn/how-to-embed-a-video-in-html/ |<br>
+| CSS Grid Layout | Using a grid-based layout system | https://www.w3schools.com/css/css_grid.asp |<br>
+| Zoom in on Hover | A tutorial on how to make a zoom in on hover transition on images | https://w3bits.com/css-image-hover-zoom/ |<br>
+| Social Media Icons | How to style social media buttons using CSS | https://www.w3schools.com/howto/howto_css_social_media_buttons.asp |<br>
+| Scroll to Top Button | Create a scroll to top button | https://www.w3schools.com/howto/howto_js_scroll_to_top.asp |<br>
+| Anchoring Links | Anchoring links to a specific section of a page | https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html |<br>
 
